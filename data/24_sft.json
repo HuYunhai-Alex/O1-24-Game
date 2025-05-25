@@ -1,0 +1,252 @@
+[
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[1, 2, 2, 6]",
+    "output": "<think>Combine 1 + 2 = 3\nCombine 2 + 6 = 8\nCombine (1+2) + (2+6) = 11\nCombine (1+2) - (2+6) = -5\nCombine (2+6) - (1+2) = 5\nCombine (1+2) * (2+6) = 24</think>\n\nFinal Solution:\n((1+2)*(2+6)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[7, 8, 3, 2]",
+    "output": "<think>Combine 7 + 8 = 15\nCombine 3 + 2 = 5\nCombine (7+8) + (3+2) = 20\nCombine (7+8) - (3+2) = 10\nCombine (3+2) - (7+8) = -10\nCombine (7+8) * (3+2) = 75\nCombine (7+8) / (3+2) = 3.0\nCombine (3+2) / (7+8) = 0.3333333333333333\nCombine 3 - 2 = 1\nCombine (7+8) + (3-2) = 16\nCombine (7+8) - (3-2) = 14\nCombine (3-2) - (7+8) = -14\nCombine (7+8) * (3-2) = 15\nCombine (7+8) / (3-2) = 15.0\nCombine (3-2) / (7+8) = 0.06666666666666667\nCombine 2 - 3 = -1\nCombine (7+8) + (2-3) = 14\nCombine (7+8) - (2-3) = 16\nCombine (2-3) - (7+8) = -16\nCombine (7+8) * (2-3) = -15\nCombine (7+8) / (2-3) = -15.0\nCombine (2-3) / (7+8) = -0.06666666666666667\nCombine 3 * 2 = 6\nCombine (7+8) + (3*2) = 21\nCombine (7+8) - (3*2) = 9\nCombine (3*2) - (7+8) = -9\nCombine (7+8) * (3*2) = 90\nCombine (7+8) / (3*2) = 2.5\nCombine (3*2) / (7+8) = 0.4\nCombine 3 / 2 = 1.5\nCombine (7+8) + (3/2) = 16.5\nCombine (7+8) - (3/2) = 13.5\nCombine (3/2) - (7+8) = -13.5\nCombine (7+8) * (3/2) = 22.5\nCombine (7+8) / (3/2) = 10.0\nCombine (3/2) / (7+8) = 0.1\nCombine 2 / 3 = 0.6666666666666666\nCombine (7+8) + (2/3) = 15.666666666666666\nCombine (7+8) - (2/3) = 14.333333333333334\nCombine (2/3) - (7+8) = -14.333333333333334\nCombine (7+8) * (2/3) = 10.0\nCombine (7+8) / (2/3) = 22.5\nCombine (2/3) / (7+8) = 0.04444444444444444\nCombine 3 + (7+8) = 18\nCombine 2 + (3+(7+8)) = 20\nCombine 2 - (3+(7+8)) = -16\nCombine (3+(7+8)) - 2 = 16\nCombine 2 * (3+(7+8)) = 36\nCombine 2 / (3+(7+8)) = 0.1111111111111111\nCombine (3+(7+8)) / 2 = 9.0\nCombine 3 - (7+8) = -12\nCombine 2 + (3-(7+8)) = -10\nCombine 2 - (3-(7+8)) = 14\nCombine (3-(7+8)) - 2 = -14\nCombine 2 * (3-(7+8)) = -24\nCombine 2 / (3-(7+8)) = -0.16666666666666666\nCombine (3-(7+8)) / 2 = -6.0\nCombine (7+8) - 3 = 12\nCombine 2 + ((7+8)-3) = 14\nCombine 2 - ((7+8)-3) = -10\nCombine ((7+8)-3) - 2 = 10\nCombine 2 * ((7+8)-3) = 24</think>\n\nFinal Solution:\n(2*((7+8)-3)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[13, 12, 12, 11]",
+    "output": "<think>Combine 13 + 12 = 25\nCombine 12 + 11 = 23\nCombine (13+12) + (12+11) = 48\nCombine (13+12) - (12+11) = 2\nCombine (12+11) - (13+12) = -2\nCombine (13+12) * (12+11) = 575\nCombine (13+12) / (12+11) = 1.0869565217391304\nCombine (12+11) / (13+12) = 0.92\nCombine 12 - 11 = 1\nCombine (13+12) + (12-11) = 26\nCombine (13+12) - (12-11) = 24</think>\n\nFinal Solution:\n((13+12)-(12-11)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[3, 2, 11, 8]",
+    "output": "<think>Combine 3 + 2 = 5\nCombine 11 + 8 = 19\nCombine (3+2) + (11+8) = 24</think>\n\nFinal Solution:\n((3+2)+(11+8)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[9, 7, 13, 5]",
+    "output": "<think>Combine 9 + 7 = 16\nCombine 13 + 5 = 18\nCombine (9+7) + (13+5) = 34\nCombine (9+7) - (13+5) = -2\nCombine (13+5) - (9+7) = 2\nCombine (9+7) * (13+5) = 288\nCombine (9+7) / (13+5) = 0.8888888888888888\nCombine (13+5) / (9+7) = 1.125\nCombine 13 - 5 = 8\nCombine (9+7) + (13-5) = 24</think>\n\nFinal Solution:\n((9+7)+(13-5)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[12, 11, 13, 13]",
+    "output": "<think>Combine 12 + 11 = 23\nCombine 13 + 13 = 26\nCombine (12+11) + (13+13) = 49\nCombine (12+11) - (13+13) = -3\nCombine (13+13) - (12+11) = 3\nCombine (12+11) * (13+13) = 598\nCombine (12+11) / (13+13) = 0.8846153846153846\nCombine (13+13) / (12+11) = 1.1304347826086956\nCombine 13 + 13 = 26\nCombine (12+11) + (13+13) = 49\nCombine (12+11) - (13+13) = -3\nCombine (13+13) - (12+11) = 3\nCombine (12+11) * (13+13) = 598\nCombine (12+11) / (13+13) = 0.8846153846153846\nCombine (13+13) / (12+11) = 1.1304347826086956\nCombine 13 - 13 = 0\nCombine (12+11) + (13-13) = 23\nCombine (12+11) - (13-13) = 23\nCombine (13-13) - (12+11) = -23\nCombine (12+11) * (13-13) = 0\nCombine (13-13) / (12+11) = 0.0\nCombine 13 - 13 = 0\nCombine (12+11) + (13-13) = 23\nCombine (12+11) - (13-13) = 23\nCombine (13-13) - (12+11) = -23\nCombine (12+11) * (13-13) = 0\nCombine (13-13) / (12+11) = 0.0\nCombine 13 * 13 = 169\nCombine (12+11) + (13*13) = 192\nCombine (12+11) - (13*13) = -146\nCombine (13*13) - (12+11) = 146\nCombine (12+11) * (13*13) = 3887\nCombine (12+11) / (13*13) = 0.13609467455621302\nCombine (13*13) / (12+11) = 7.3478260869565215\nCombine 13 * 13 = 169\nCombine (12+11) + (13*13) = 192\nCombine (12+11) - (13*13) = -146\nCombine (13*13) - (12+11) = 146\nCombine (12+11) * (13*13) = 3887\nCombine (12+11) / (13*13) = 0.13609467455621302\nCombine (13*13) / (12+11) = 7.3478260869565215\nCombine 13 / 13 = 1.0\nCombine (12+11) + (13/13) = 24.0</think>\n\nFinal Solution:\n((12+11)+(13/13)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[1, 8, 2, 13]",
+    "output": "<think>Combine 1 + 8 = 9\nCombine 2 + 13 = 15\nCombine (1+8) + (2+13) = 24</think>\n\nFinal Solution:\n((1+8)+(2+13)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[9, 13, 5, 10]",
+    "output": "<think>Combine 9 + 13 = 22\nCombine 5 + 10 = 15\nCombine (9+13) + (5+10) = 37\nCombine (9+13) - (5+10) = 7\nCombine (5+10) - (9+13) = -7\nCombine (9+13) * (5+10) = 330\nCombine (9+13) / (5+10) = 1.4666666666666666\nCombine (5+10) / (9+13) = 0.6818181818181818\nCombine 5 - 10 = -5\nCombine (9+13) + (5-10) = 17\nCombine (9+13) - (5-10) = 27\nCombine (5-10) - (9+13) = -27\nCombine (9+13) * (5-10) = -110\nCombine (9+13) / (5-10) = -4.4\nCombine (5-10) / (9+13) = -0.22727272727272727\nCombine 10 - 5 = 5\nCombine (9+13) + (10-5) = 27\nCombine (9+13) - (10-5) = 17\nCombine (10-5) - (9+13) = -17\nCombine (9+13) * (10-5) = 110\nCombine (9+13) / (10-5) = 4.4\nCombine (10-5) / (9+13) = 0.22727272727272727\nCombine 5 * 10 = 50\nCombine (9+13) + (5*10) = 72\nCombine (9+13) - (5*10) = -28\nCombine (5*10) - (9+13) = 28\nCombine (9+13) * (5*10) = 1100\nCombine (9+13) / (5*10) = 0.44\nCombine (5*10) / (9+13) = 2.272727272727273\nCombine 5 / 10 = 0.5\nCombine (9+13) + (5/10) = 22.5\nCombine (9+13) - (5/10) = 21.5\nCombine (5/10) - (9+13) = -21.5\nCombine (9+13) * (5/10) = 11.0\nCombine (9+13) / (5/10) = 44.0\nCombine (5/10) / (9+13) = 0.022727272727272728\nCombine 10 / 5 = 2.0\nCombine (9+13) + (10/5) = 24.0</think>\n\nFinal Solution:\n((9+13)+(10/5)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[7, 13, 1, 4]",
+    "output": "<think>Combine 7 + 13 = 20\nCombine 1 + 4 = 5\nCombine (7+13) + (1+4) = 25\nCombine (7+13) - (1+4) = 15\nCombine (1+4) - (7+13) = -15\nCombine (7+13) * (1+4) = 100\nCombine (7+13) / (1+4) = 4.0\nCombine (1+4) / (7+13) = 0.25\nCombine 1 - 4 = -3\nCombine (7+13) + (1-4) = 17\nCombine (7+13) - (1-4) = 23\nCombine (1-4) - (7+13) = -23\nCombine (7+13) * (1-4) = -60\nCombine (7+13) / (1-4) = -6.666666666666667\nCombine (1-4) / (7+13) = -0.15\nCombine 4 - 1 = 3\nCombine (7+13) + (4-1) = 23\nCombine (7+13) - (4-1) = 17\nCombine (4-1) - (7+13) = -17\nCombine (7+13) * (4-1) = 60\nCombine (7+13) / (4-1) = 6.666666666666667\nCombine (4-1) / (7+13) = 0.15\nCombine 1 * 4 = 4\nCombine (7+13) + (1*4) = 24</think>\n\nFinal Solution:\n((7+13)+(1*4)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[9, 6, 10, 1]",
+    "output": "<think>Combine 9 + 6 = 15\nCombine 10 + 1 = 11\nCombine (9+6) + (10+1) = 26\nCombine (9+6) - (10+1) = 4\nCombine (10+1) - (9+6) = -4\nCombine (9+6) * (10+1) = 165\nCombine (9+6) / (10+1) = 1.3636363636363635\nCombine (10+1) / (9+6) = 0.7333333333333333\nCombine 10 - 1 = 9\nCombine (9+6) + (10-1) = 24</think>\n\nFinal Solution:\n((9+6)+(10-1)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[9, 6, 13, 3]",
+    "output": "<think>Combine 9 + 6 = 15\nCombine 13 + 3 = 16\nCombine (9+6) + (13+3) = 31\nCombine (9+6) - (13+3) = -1\nCombine (13+3) - (9+6) = 1\nCombine (9+6) * (13+3) = 240\nCombine (9+6) / (13+3) = 0.9375\nCombine (13+3) / (9+6) = 1.0666666666666667\nCombine 13 - 3 = 10\nCombine (9+6) + (13-3) = 25\nCombine (9+6) - (13-3) = 5\nCombine (13-3) - (9+6) = -5\nCombine (9+6) * (13-3) = 150\nCombine (9+6) / (13-3) = 1.5\nCombine (13-3) / (9+6) = 0.6666666666666666\nCombine 3 - 13 = -10\nCombine (9+6) + (3-13) = 5\nCombine (9+6) - (3-13) = 25\nCombine (3-13) - (9+6) = -25\nCombine (9+6) * (3-13) = -150\nCombine (9+6) / (3-13) = -1.5\nCombine (3-13) / (9+6) = -0.6666666666666666\nCombine 13 * 3 = 39\nCombine (9+6) + (13*3) = 54\nCombine (9+6) - (13*3) = -24\nCombine (13*3) - (9+6) = 24</think>\n\nFinal Solution:\n((13*3)-(9+6)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[11, 2, 1, 12]",
+    "output": "<think>Combine 11 + 2 = 13\nCombine 1 + 12 = 13\nCombine (11+2) + (1+12) = 26\nCombine (1+12) + (11+2) = 26\nCombine (11+2) - (1+12) = 0\nCombine (1+12) - (11+2) = 0\nCombine (11+2) * (1+12) = 169\nCombine (1+12) * (11+2) = 169\nCombine (11+2) / (1+12) = 1.0\nCombine (1+12) / (11+2) = 1.0\nCombine 1 - 12 = -11\nCombine (11+2) + (1-12) = 2\nCombine (11+2) - (1-12) = 24</think>\n\nFinal Solution:\n((11+2)-(1-12)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[11, 7, 7, 13]",
+    "output": "<think>Combine 11 + 7 = 18\nCombine 7 + 13 = 20\nCombine (11+7) + (7+13) = 38\nCombine (11+7) - (7+13) = -2\nCombine (7+13) - (11+7) = 2\nCombine (11+7) * (7+13) = 360\nCombine (11+7) / (7+13) = 0.9\nCombine (7+13) / (11+7) = 1.1111111111111112\nCombine 7 - 13 = -6\nCombine (11+7) + (7-13) = 12\nCombine (11+7) - (7-13) = 24</think>\n\nFinal Solution:\n((11+7)-(7-13)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[6, 2, 7, 9]",
+    "output": "<think>Combine 6 + 2 = 8\nCombine 7 + 9 = 16\nCombine (6+2) + (7+9) = 24</think>\n\nFinal Solution:\n((6+2)+(7+9)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[12, 4, 8, 1]",
+    "output": "<think>Combine 12 + 4 = 16\nCombine 8 + 1 = 9\nCombine (12+4) + (8+1) = 25\nCombine (12+4) - (8+1) = 7\nCombine (8+1) - (12+4) = -7\nCombine (12+4) * (8+1) = 144\nCombine (12+4) / (8+1) = 1.7777777777777777\nCombine (8+1) / (12+4) = 0.5625\nCombine 8 - 1 = 7\nCombine (12+4) + (8-1) = 23\nCombine (12+4) - (8-1) = 9\nCombine (8-1) - (12+4) = -9\nCombine (12+4) * (8-1) = 112\nCombine (12+4) / (8-1) = 2.2857142857142856\nCombine (8-1) / (12+4) = 0.4375\nCombine 1 - 8 = -7\nCombine (12+4) + (1-8) = 9\nCombine (12+4) - (1-8) = 23\nCombine (1-8) - (12+4) = -23\nCombine (12+4) * (1-8) = -112\nCombine (12+4) / (1-8) = -2.2857142857142856\nCombine (1-8) / (12+4) = -0.4375\nCombine 8 * 1 = 8\nCombine (12+4) + (8*1) = 24</think>\n\nFinal Solution:\n((12+4)+(8*1)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[9, 6, 3, 12]",
+    "output": "<think>Combine 9 + 6 = 15\nCombine 3 + 12 = 15\nCombine (9+6) + (3+12) = 30\nCombine (3+12) + (9+6) = 30\nCombine (9+6) - (3+12) = 0\nCombine (3+12) - (9+6) = 0\nCombine (9+6) * (3+12) = 225\nCombine (3+12) * (9+6) = 225\nCombine (9+6) / (3+12) = 1.0\nCombine (3+12) / (9+6) = 1.0\nCombine 3 - 12 = -9\nCombine (9+6) + (3-12) = 6\nCombine (9+6) - (3-12) = 24</think>\n\nFinal Solution:\n((9+6)-(3-12)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[12, 3, 4, 13]",
+    "output": "<think>Combine 12 + 3 = 15\nCombine 4 + 13 = 17\nCombine (12+3) + (4+13) = 32\nCombine (12+3) - (4+13) = -2\nCombine (4+13) - (12+3) = 2\nCombine (12+3) * (4+13) = 255\nCombine (12+3) / (4+13) = 0.8823529411764706\nCombine (4+13) / (12+3) = 1.1333333333333333\nCombine 4 - 13 = -9\nCombine (12+3) + (4-13) = 6\nCombine (12+3) - (4-13) = 24</think>\n\nFinal Solution:\n((12+3)-(4-13)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[2, 4, 2, 9]",
+    "output": "<think>Combine 2 + 4 = 6\nCombine 2 + 9 = 11\nCombine (2+4) + (2+9) = 17\nCombine (2+4) - (2+9) = -5\nCombine (2+9) - (2+4) = 5\nCombine (2+4) * (2+9) = 66\nCombine (2+4) / (2+9) = 0.5454545454545454\nCombine (2+9) / (2+4) = 1.8333333333333333\nCombine 2 - 9 = -7\nCombine (2+4) + (2-9) = -1\nCombine (2+4) - (2-9) = 13\nCombine (2-9) - (2+4) = -13\nCombine (2+4) * (2-9) = -42\nCombine (2+4) / (2-9) = -0.8571428571428571\nCombine (2-9) / (2+4) = -1.1666666666666667\nCombine 9 - 2 = 7\nCombine (2+4) + (9-2) = 13\nCombine (2+4) - (9-2) = -1\nCombine (9-2) - (2+4) = 1\nCombine (2+4) * (9-2) = 42\nCombine (2+4) / (9-2) = 0.8571428571428571\nCombine (9-2) / (2+4) = 1.1666666666666667\nCombine 2 * 9 = 18\nCombine (2+4) + (2*9) = 24</think>\n\nFinal Solution:\n((2+4)+(2*9)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[2, 9, 13, 12]",
+    "output": "<think>Combine 2 + 9 = 11\nCombine 13 + 12 = 25\nCombine (2+9) + (13+12) = 36\nCombine (2+9) - (13+12) = -14\nCombine (13+12) - (2+9) = 14\nCombine (2+9) * (13+12) = 275\nCombine (2+9) / (13+12) = 0.44\nCombine (13+12) / (2+9) = 2.272727272727273\nCombine 13 - 12 = 1\nCombine (2+9) + (13-12) = 12\nCombine (2+9) - (13-12) = 10\nCombine (13-12) - (2+9) = -10\nCombine (2+9) * (13-12) = 11\nCombine (2+9) / (13-12) = 11.0\nCombine (13-12) / (2+9) = 0.09090909090909091\nCombine 12 - 13 = -1\nCombine (2+9) + (12-13) = 10\nCombine (2+9) - (12-13) = 12\nCombine (12-13) - (2+9) = -12\nCombine (2+9) * (12-13) = -11\nCombine (2+9) / (12-13) = -11.0\nCombine (12-13) / (2+9) = -0.09090909090909091\nCombine 13 * 12 = 156\nCombine (2+9) + (13*12) = 167\nCombine (2+9) - (13*12) = -145\nCombine (13*12) - (2+9) = 145\nCombine (2+9) * (13*12) = 1716\nCombine (2+9) / (13*12) = 0.07051282051282051\nCombine (13*12) / (2+9) = 14.181818181818182\nCombine 13 / 12 = 1.0833333333333333\nCombine (2+9) + (13/12) = 12.083333333333334\nCombine (2+9) - (13/12) = 9.916666666666666\nCombine (13/12) - (2+9) = -9.916666666666666\nCombine (2+9) * (13/12) = 11.916666666666666\nCombine (2+9) / (13/12) = 10.153846153846155\nCombine (13/12) / (2+9) = 0.09848484848484848\nCombine 12 / 13 = 0.9230769230769231\nCombine (2+9) + (12/13) = 11.923076923076923\nCombine (2+9) - (12/13) = 10.076923076923077\nCombine (12/13) - (2+9) = -10.076923076923077\nCombine (2+9) * (12/13) = 10.153846153846155\nCombine (2+9) / (12/13) = 11.916666666666666\nCombine (12/13) / (2+9) = 0.08391608391608392\nCombine 13 + (2+9) = 24\nCombine 12 + (13+(2+9)) = 36\nCombine 12 - (13+(2+9)) = -12\nCombine (13+(2+9)) - 12 = 12\nCombine 12 * (13+(2+9)) = 288\nCombine 12 / (13+(2+9)) = 0.5\nCombine (13+(2+9)) / 12 = 2.0\nCombine 13 - (2+9) = 2\nCombine 12 + (13-(2+9)) = 14\nCombine 12 - (13-(2+9)) = 10\nCombine (13-(2+9)) - 12 = -10\nCombine 12 * (13-(2+9)) = 24</think>\n\nFinal Solution:\n(12*(13-(2+9))) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[2, 4, 5, 1]",
+    "output": "<think>Combine 2 + 4 = 6\nCombine 5 + 1 = 6\nCombine (2+4) + (5+1) = 12\nCombine (5+1) + (2+4) = 12\nCombine (2+4) - (5+1) = 0\nCombine (5+1) - (2+4) = 0\nCombine (2+4) * (5+1) = 36\nCombine (5+1) * (2+4) = 36\nCombine (2+4) / (5+1) = 1.0\nCombine (5+1) / (2+4) = 1.0\nCombine 5 - 1 = 4\nCombine (2+4) + (5-1) = 10\nCombine (2+4) - (5-1) = 2\nCombine (5-1) - (2+4) = -2\nCombine (2+4) * (5-1) = 24</think>\n\nFinal Solution:\n((2+4)*(5-1)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[1, 1, 2, 13]",
+    "output": "<think>Combine 1 + 1 = 2\nCombine 2 + 13 = 15\nCombine (1+1) + (2+13) = 17\nCombine (1+1) - (2+13) = -13\nCombine (2+13) - (1+1) = 13\nCombine (1+1) * (2+13) = 30\nCombine (1+1) / (2+13) = 0.13333333333333333\nCombine (2+13) / (1+1) = 7.5\nCombine 2 - 13 = -11\nCombine (1+1) + (2-13) = -9\nCombine (1+1) - (2-13) = 13\nCombine (2-13) - (1+1) = -13\nCombine (1+1) * (2-13) = -22\nCombine (1+1) / (2-13) = -0.18181818181818182\nCombine (2-13) / (1+1) = -5.5\nCombine 13 - 2 = 11\nCombine (1+1) + (13-2) = 13\nCombine (1+1) - (13-2) = -9\nCombine (13-2) - (1+1) = 9\nCombine (1+1) * (13-2) = 22\nCombine (1+1) / (13-2) = 0.18181818181818182\nCombine (13-2) / (1+1) = 5.5\nCombine 2 * 13 = 26\nCombine (1+1) + (2*13) = 28\nCombine (1+1) - (2*13) = -24\nCombine (2*13) - (1+1) = 24</think>\n\nFinal Solution:\n((2*13)-(1+1)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[6, 2, 4, 12]",
+    "output": "<think>Combine 6 + 2 = 8\nCombine 4 + 12 = 16\nCombine (6+2) + (4+12) = 24</think>\n\nFinal Solution:\n((6+2)+(4+12)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[1, 2, 3, 9]",
+    "output": "<think>Combine 1 + 2 = 3\nCombine 3 + 9 = 12\nCombine (1+2) + (3+9) = 15\nCombine (1+2) - (3+9) = -9\nCombine (3+9) - (1+2) = 9\nCombine (1+2) * (3+9) = 36\nCombine (1+2) / (3+9) = 0.25\nCombine (3+9) / (1+2) = 4.0\nCombine 3 - 9 = -6\nCombine (1+2) + (3-9) = -3\nCombine (1+2) - (3-9) = 9\nCombine (3-9) - (1+2) = -9\nCombine (1+2) * (3-9) = -18\nCombine (1+2) / (3-9) = -0.5\nCombine (3-9) / (1+2) = -2.0\nCombine 9 - 3 = 6\nCombine (1+2) + (9-3) = 9\nCombine (1+2) - (9-3) = -3\nCombine (9-3) - (1+2) = 3\nCombine (1+2) * (9-3) = 18\nCombine (1+2) / (9-3) = 0.5\nCombine (9-3) / (1+2) = 2.0\nCombine 3 * 9 = 27\nCombine (1+2) + (3*9) = 30\nCombine (1+2) - (3*9) = -24\nCombine (3*9) - (1+2) = 24</think>\n\nFinal Solution:\n((3*9)-(1+2)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[11, 4, 3, 13]",
+    "output": "<think>Combine 11 + 4 = 15\nCombine 3 + 13 = 16\nCombine (11+4) + (3+13) = 31\nCombine (11+4) - (3+13) = -1\nCombine (3+13) - (11+4) = 1\nCombine (11+4) * (3+13) = 240\nCombine (11+4) / (3+13) = 0.9375\nCombine (3+13) / (11+4) = 1.0666666666666667\nCombine 3 - 13 = -10\nCombine (11+4) + (3-13) = 5\nCombine (11+4) - (3-13) = 25\nCombine (3-13) - (11+4) = -25\nCombine (11+4) * (3-13) = -150\nCombine (11+4) / (3-13) = -1.5\nCombine (3-13) / (11+4) = -0.6666666666666666\nCombine 13 - 3 = 10\nCombine (11+4) + (13-3) = 25\nCombine (11+4) - (13-3) = 5\nCombine (13-3) - (11+4) = -5\nCombine (11+4) * (13-3) = 150\nCombine (11+4) / (13-3) = 1.5\nCombine (13-3) / (11+4) = 0.6666666666666666\nCombine 3 * 13 = 39\nCombine (11+4) + (3*13) = 54\nCombine (11+4) - (3*13) = -24\nCombine (3*13) - (11+4) = 24</think>\n\nFinal Solution:\n((3*13)-(11+4)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[13, 12, 6, 6]",
+    "output": "<think>Combine 13 + 12 = 25\nCombine 6 + 6 = 12\nCombine (13+12) + (6+6) = 37\nCombine (13+12) - (6+6) = 13\nCombine (6+6) - (13+12) = -13\nCombine (13+12) * (6+6) = 300\nCombine (13+12) / (6+6) = 2.0833333333333335\nCombine (6+6) / (13+12) = 0.48\nCombine 6 + 6 = 12\nCombine (13+12) + (6+6) = 37\nCombine (13+12) - (6+6) = 13\nCombine (6+6) - (13+12) = -13\nCombine (13+12) * (6+6) = 300\nCombine (13+12) / (6+6) = 2.0833333333333335\nCombine (6+6) / (13+12) = 0.48\nCombine 6 - 6 = 0\nCombine (13+12) + (6-6) = 25\nCombine (13+12) - (6-6) = 25\nCombine (6-6) - (13+12) = -25\nCombine (13+12) * (6-6) = 0\nCombine (6-6) / (13+12) = 0.0\nCombine 6 - 6 = 0\nCombine (13+12) + (6-6) = 25\nCombine (13+12) - (6-6) = 25\nCombine (6-6) - (13+12) = -25\nCombine (13+12) * (6-6) = 0\nCombine (6-6) / (13+12) = 0.0\nCombine 6 * 6 = 36\nCombine (13+12) + (6*6) = 61\nCombine (13+12) - (6*6) = -11\nCombine (6*6) - (13+12) = 11\nCombine (13+12) * (6*6) = 900\nCombine (13+12) / (6*6) = 0.6944444444444444\nCombine (6*6) / (13+12) = 1.44\nCombine 6 * 6 = 36\nCombine (13+12) + (6*6) = 61\nCombine (13+12) - (6*6) = -11\nCombine (6*6) - (13+12) = 11\nCombine (13+12) * (6*6) = 900\nCombine (13+12) / (6*6) = 0.6944444444444444\nCombine (6*6) / (13+12) = 1.44\nCombine 6 / 6 = 1.0\nCombine (13+12) + (6/6) = 26.0\nCombine (13+12) - (6/6) = 24.0</think>\n\nFinal Solution:\n((13+12)-(6/6)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[1, 2, 9, 2]",
+    "output": "<think>Combine 1 + 2 = 3\nCombine 9 + 2 = 11\nCombine (1+2) + (9+2) = 14\nCombine (1+2) - (9+2) = -8\nCombine (9+2) - (1+2) = 8\nCombine (1+2) * (9+2) = 33\nCombine (1+2) / (9+2) = 0.2727272727272727\nCombine (9+2) / (1+2) = 3.6666666666666665\nCombine 9 - 2 = 7\nCombine (1+2) + (9-2) = 10\nCombine (1+2) - (9-2) = -4\nCombine (9-2) - (1+2) = 4\nCombine (1+2) * (9-2) = 21\nCombine (1+2) / (9-2) = 0.42857142857142855\nCombine (9-2) / (1+2) = 2.3333333333333335\nCombine 2 - 9 = -7\nCombine (1+2) + (2-9) = -4\nCombine (1+2) - (2-9) = 10\nCombine (2-9) - (1+2) = -10\nCombine (1+2) * (2-9) = -21\nCombine (1+2) / (2-9) = -0.42857142857142855\nCombine (2-9) / (1+2) = -2.3333333333333335\nCombine 9 * 2 = 18\nCombine (1+2) + (9*2) = 21\nCombine (1+2) - (9*2) = -15\nCombine (9*2) - (1+2) = 15\nCombine (1+2) * (9*2) = 54\nCombine (1+2) / (9*2) = 0.16666666666666666\nCombine (9*2) / (1+2) = 6.0\nCombine 9 / 2 = 4.5\nCombine (1+2) + (9/2) = 7.5\nCombine (1+2) - (9/2) = -1.5\nCombine (9/2) - (1+2) = 1.5\nCombine (1+2) * (9/2) = 13.5\nCombine (1+2) / (9/2) = 0.6666666666666666\nCombine (9/2) / (1+2) = 1.5\nCombine 2 / 9 = 0.2222222222222222\nCombine (1+2) + (2/9) = 3.2222222222222223\nCombine (1+2) - (2/9) = 2.7777777777777777\nCombine (2/9) - (1+2) = -2.7777777777777777\nCombine (1+2) * (2/9) = 0.6666666666666666\nCombine (1+2) / (2/9) = 13.5\nCombine (2/9) / (1+2) = 0.07407407407407407\nCombine 9 + (1+2) = 12\nCombine 2 + (9+(1+2)) = 14\nCombine 2 - (9+(1+2)) = -10\nCombine (9+(1+2)) - 2 = 10\nCombine 2 * (9+(1+2)) = 24</think>\n\nFinal Solution:\n(2*(9+(1+2))) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[7, 10, 12, 5]",
+    "output": "<think>Combine 7 + 10 = 17\nCombine 12 + 5 = 17\nCombine (7+10) + (12+5) = 34\nCombine (12+5) + (7+10) = 34\nCombine (7+10) - (12+5) = 0\nCombine (12+5) - (7+10) = 0\nCombine (7+10) * (12+5) = 289\nCombine (12+5) * (7+10) = 289\nCombine (7+10) / (12+5) = 1.0\nCombine (12+5) / (7+10) = 1.0\nCombine 12 - 5 = 7\nCombine (7+10) + (12-5) = 24</think>\n\nFinal Solution:\n((7+10)+(12-5)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[13, 5, 8, 6]",
+    "output": "<think>Combine 13 + 5 = 18\nCombine 8 + 6 = 14\nCombine (13+5) + (8+6) = 32\nCombine (13+5) - (8+6) = 4\nCombine (8+6) - (13+5) = -4\nCombine (13+5) * (8+6) = 252\nCombine (13+5) / (8+6) = 1.2857142857142858\nCombine (8+6) / (13+5) = 0.7777777777777778\nCombine 8 - 6 = 2\nCombine (13+5) + (8-6) = 20\nCombine (13+5) - (8-6) = 16\nCombine (8-6) - (13+5) = -16\nCombine (13+5) * (8-6) = 36\nCombine (13+5) / (8-6) = 9.0\nCombine (8-6) / (13+5) = 0.1111111111111111\nCombine 6 - 8 = -2\nCombine (13+5) + (6-8) = 16\nCombine (13+5) - (6-8) = 20\nCombine (6-8) - (13+5) = -20\nCombine (13+5) * (6-8) = -36\nCombine (13+5) / (6-8) = -9.0\nCombine (6-8) / (13+5) = -0.1111111111111111\nCombine 8 * 6 = 48\nCombine (13+5) + (8*6) = 66\nCombine (13+5) - (8*6) = -30\nCombine (8*6) - (13+5) = 30\nCombine (13+5) * (8*6) = 864\nCombine (13+5) / (8*6) = 0.375\nCombine (8*6) / (13+5) = 2.6666666666666665\nCombine 8 / 6 = 1.3333333333333333\nCombine (13+5) + (8/6) = 19.333333333333332\nCombine (13+5) - (8/6) = 16.666666666666668\nCombine (8/6) - (13+5) = -16.666666666666668\nCombine (13+5) * (8/6) = 24.0</think>\n\nFinal Solution:\n((13+5)*(8/6)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[12, 5, 5, 12]",
+    "output": "<think>Combine 12 + 5 = 17\nCombine 5 + 12 = 17\nCombine (12+5) + (5+12) = 34\nCombine (5+12) + (12+5) = 34\nCombine (12+5) - (5+12) = 0\nCombine (5+12) - (12+5) = 0\nCombine (12+5) * (5+12) = 289\nCombine (5+12) * (12+5) = 289\nCombine (12+5) / (5+12) = 1.0\nCombine (5+12) / (12+5) = 1.0\nCombine 5 - 12 = -7\nCombine (12+5) + (5-12) = 10\nCombine (12+5) - (5-12) = 24</think>\n\nFinal Solution:\n((12+5)-(5-12)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[11, 4, 3, 3]",
+    "output": "<think>Combine 11 + 4 = 15\nCombine 3 + 3 = 6\nCombine (11+4) + (3+3) = 21\nCombine (11+4) - (3+3) = 9\nCombine (3+3) - (11+4) = -9\nCombine (11+4) * (3+3) = 90\nCombine (11+4) / (3+3) = 2.5\nCombine (3+3) / (11+4) = 0.4\nCombine 3 + 3 = 6\nCombine (11+4) + (3+3) = 21\nCombine (11+4) - (3+3) = 9\nCombine (3+3) - (11+4) = -9\nCombine (11+4) * (3+3) = 90\nCombine (11+4) / (3+3) = 2.5\nCombine (3+3) / (11+4) = 0.4\nCombine 3 - 3 = 0\nCombine (11+4) + (3-3) = 15\nCombine (11+4) - (3-3) = 15\nCombine (3-3) - (11+4) = -15\nCombine (11+4) * (3-3) = 0\nCombine (3-3) / (11+4) = 0.0\nCombine 3 - 3 = 0\nCombine (11+4) + (3-3) = 15\nCombine (11+4) - (3-3) = 15\nCombine (3-3) - (11+4) = -15\nCombine (11+4) * (3-3) = 0\nCombine (3-3) / (11+4) = 0.0\nCombine 3 * 3 = 9\nCombine (11+4) + (3*3) = 24</think>\n\nFinal Solution:\n((11+4)+(3*3)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[12, 3, 3, 2]",
+    "output": "<think>Combine 12 + 3 = 15\nCombine 3 + 2 = 5\nCombine (12+3) + (3+2) = 20\nCombine (12+3) - (3+2) = 10\nCombine (3+2) - (12+3) = -10\nCombine (12+3) * (3+2) = 75\nCombine (12+3) / (3+2) = 3.0\nCombine (3+2) / (12+3) = 0.3333333333333333\nCombine 3 - 2 = 1\nCombine (12+3) + (3-2) = 16\nCombine (12+3) - (3-2) = 14\nCombine (3-2) - (12+3) = -14\nCombine (12+3) * (3-2) = 15\nCombine (12+3) / (3-2) = 15.0\nCombine (3-2) / (12+3) = 0.06666666666666667\nCombine 2 - 3 = -1\nCombine (12+3) + (2-3) = 14\nCombine (12+3) - (2-3) = 16\nCombine (2-3) - (12+3) = -16\nCombine (12+3) * (2-3) = -15\nCombine (12+3) / (2-3) = -15.0\nCombine (2-3) / (12+3) = -0.06666666666666667\nCombine 3 * 2 = 6\nCombine (12+3) + (3*2) = 21\nCombine (12+3) - (3*2) = 9\nCombine (3*2) - (12+3) = -9\nCombine (12+3) * (3*2) = 90\nCombine (12+3) / (3*2) = 2.5\nCombine (3*2) / (12+3) = 0.4\nCombine 3 / 2 = 1.5\nCombine (12+3) + (3/2) = 16.5\nCombine (12+3) - (3/2) = 13.5\nCombine (3/2) - (12+3) = -13.5\nCombine (12+3) * (3/2) = 22.5\nCombine (12+3) / (3/2) = 10.0\nCombine (3/2) / (12+3) = 0.1\nCombine 2 / 3 = 0.6666666666666666\nCombine (12+3) + (2/3) = 15.666666666666666\nCombine (12+3) - (2/3) = 14.333333333333334\nCombine (2/3) - (12+3) = -14.333333333333334\nCombine (12+3) * (2/3) = 10.0\nCombine (12+3) / (2/3) = 22.5\nCombine (2/3) / (12+3) = 0.04444444444444444\nCombine 3 + (12+3) = 18\nCombine 2 + (3+(12+3)) = 20\nCombine 2 - (3+(12+3)) = -16\nCombine (3+(12+3)) - 2 = 16\nCombine 2 * (3+(12+3)) = 36\nCombine 2 / (3+(12+3)) = 0.1111111111111111\nCombine (3+(12+3)) / 2 = 9.0\nCombine 3 - (12+3) = -12\nCombine 2 + (3-(12+3)) = -10\nCombine 2 - (3-(12+3)) = 14\nCombine (3-(12+3)) - 2 = -14\nCombine 2 * (3-(12+3)) = -24\nCombine 2 / (3-(12+3)) = -0.16666666666666666\nCombine (3-(12+3)) / 2 = -6.0\nCombine (12+3) - 3 = 12\nCombine 2 + ((12+3)-3) = 14\nCombine 2 - ((12+3)-3) = -10\nCombine ((12+3)-3) - 2 = 10\nCombine 2 * ((12+3)-3) = 24</think>\n\nFinal Solution:\n(2*((12+3)-3)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[3, 1, 5, 11]",
+    "output": "<think>Combine 3 + 1 = 4\nCombine 5 + 11 = 16\nCombine (3+1) + (5+11) = 20\nCombine (3+1) - (5+11) = -12\nCombine (5+11) - (3+1) = 12\nCombine (3+1) * (5+11) = 64\nCombine (3+1) / (5+11) = 0.25\nCombine (5+11) / (3+1) = 4.0\nCombine 5 - 11 = -6\nCombine (3+1) + (5-11) = -2\nCombine (3+1) - (5-11) = 10\nCombine (5-11) - (3+1) = -10\nCombine (3+1) * (5-11) = -24\nCombine (3+1) / (5-11) = -0.6666666666666666\nCombine (5-11) / (3+1) = -1.5\nCombine 11 - 5 = 6\nCombine (3+1) + (11-5) = 10\nCombine (3+1) - (11-5) = -2\nCombine (11-5) - (3+1) = 2\nCombine (3+1) * (11-5) = 24</think>\n\nFinal Solution:\n((3+1)*(11-5)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[12, 6, 4, 2]",
+    "output": "<think>Combine 12 + 6 = 18\nCombine 4 + 2 = 6\nCombine (12+6) + (4+2) = 24</think>\n\nFinal Solution:\n((12+6)+(4+2)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[13, 1, 11, 1]",
+    "output": "<think>Combine 13 + 1 = 14\nCombine 11 + 1 = 12\nCombine (13+1) + (11+1) = 26\nCombine (13+1) - (11+1) = 2\nCombine (11+1) - (13+1) = -2\nCombine (13+1) * (11+1) = 168\nCombine (13+1) / (11+1) = 1.1666666666666667\nCombine (11+1) / (13+1) = 0.8571428571428571\nCombine 11 - 1 = 10\nCombine (13+1) + (11-1) = 24</think>\n\nFinal Solution:\n((13+1)+(11-1)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[13, 8, 8, 11]",
+    "output": "<think>Combine 13 + 8 = 21\nCombine 8 + 11 = 19\nCombine (13+8) + (8+11) = 40\nCombine (13+8) - (8+11) = 2\nCombine (8+11) - (13+8) = -2\nCombine (13+8) * (8+11) = 399\nCombine (13+8) / (8+11) = 1.105263157894737\nCombine (8+11) / (13+8) = 0.9047619047619048\nCombine 8 - 11 = -3\nCombine (13+8) + (8-11) = 18\nCombine (13+8) - (8-11) = 24</think>\n\nFinal Solution:\n((13+8)-(8-11)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[10, 4, 9, 1]",
+    "output": "<think>Combine 10 + 4 = 14\nCombine 9 + 1 = 10\nCombine (10+4) + (9+1) = 24</think>\n\nFinal Solution:\n((10+4)+(9+1)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[2, 1, 9, 3]",
+    "output": "<think>Combine 2 + 1 = 3\nCombine 9 + 3 = 12\nCombine (2+1) + (9+3) = 15\nCombine (2+1) - (9+3) = -9\nCombine (9+3) - (2+1) = 9\nCombine (2+1) * (9+3) = 36\nCombine (2+1) / (9+3) = 0.25\nCombine (9+3) / (2+1) = 4.0\nCombine 9 - 3 = 6\nCombine (2+1) + (9-3) = 9\nCombine (2+1) - (9-3) = -3\nCombine (9-3) - (2+1) = 3\nCombine (2+1) * (9-3) = 18\nCombine (2+1) / (9-3) = 0.5\nCombine (9-3) / (2+1) = 2.0\nCombine 3 - 9 = -6\nCombine (2+1) + (3-9) = -3\nCombine (2+1) - (3-9) = 9\nCombine (3-9) - (2+1) = -9\nCombine (2+1) * (3-9) = -18\nCombine (2+1) / (3-9) = -0.5\nCombine (3-9) / (2+1) = -2.0\nCombine 9 * 3 = 27\nCombine (2+1) + (9*3) = 30\nCombine (2+1) - (9*3) = -24\nCombine (9*3) - (2+1) = 24</think>\n\nFinal Solution:\n((9*3)-(2+1)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[3, 9, 9, 4]",
+    "output": "<think>Combine 3 + 9 = 12\nCombine 9 + 4 = 13\nCombine (3+9) + (9+4) = 25\nCombine (3+9) - (9+4) = -1\nCombine (9+4) - (3+9) = 1\nCombine (3+9) * (9+4) = 156\nCombine (3+9) / (9+4) = 0.9230769230769231\nCombine (9+4) / (3+9) = 1.0833333333333333\nCombine 9 - 4 = 5\nCombine (3+9) + (9-4) = 17\nCombine (3+9) - (9-4) = 7\nCombine (9-4) - (3+9) = -7\nCombine (3+9) * (9-4) = 60\nCombine (3+9) / (9-4) = 2.4\nCombine (9-4) / (3+9) = 0.4166666666666667\nCombine 4 - 9 = -5\nCombine (3+9) + (4-9) = 7\nCombine (3+9) - (4-9) = 17\nCombine (4-9) - (3+9) = -17\nCombine (3+9) * (4-9) = -60\nCombine (3+9) / (4-9) = -2.4\nCombine (4-9) / (3+9) = -0.4166666666666667\nCombine 9 * 4 = 36\nCombine (3+9) + (9*4) = 48\nCombine (3+9) - (9*4) = -24\nCombine (9*4) - (3+9) = 24</think>\n\nFinal Solution:\n((9*4)-(3+9)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[1, 11, 6, 8]",
+    "output": "<think>Combine 1 + 11 = 12\nCombine 6 + 8 = 14\nCombine (1+11) + (6+8) = 26\nCombine (1+11) - (6+8) = -2\nCombine (6+8) - (1+11) = 2\nCombine (1+11) * (6+8) = 168\nCombine (1+11) / (6+8) = 0.8571428571428571\nCombine (6+8) / (1+11) = 1.1666666666666667\nCombine 6 - 8 = -2\nCombine (1+11) + (6-8) = 10\nCombine (1+11) - (6-8) = 14\nCombine (6-8) - (1+11) = -14\nCombine (1+11) * (6-8) = -24\nCombine (1+11) / (6-8) = -6.0\nCombine (6-8) / (1+11) = -0.16666666666666666\nCombine 8 - 6 = 2\nCombine (1+11) + (8-6) = 14\nCombine (1+11) - (8-6) = 10\nCombine (8-6) - (1+11) = -10\nCombine (1+11) * (8-6) = 24</think>\n\nFinal Solution:\n((1+11)*(8-6)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[12, 10, 12, 11]",
+    "output": "<think>Combine 12 + 10 = 22\nCombine 12 + 11 = 23\nCombine (12+10) + (12+11) = 45\nCombine (12+10) - (12+11) = -1\nCombine (12+11) - (12+10) = 1\nCombine (12+10) * (12+11) = 506\nCombine (12+10) / (12+11) = 0.9565217391304348\nCombine (12+11) / (12+10) = 1.0454545454545454\nCombine 12 - 11 = 1\nCombine (12+10) + (12-11) = 23\nCombine (12+10) - (12-11) = 21\nCombine (12-11) - (12+10) = -21\nCombine (12+10) * (12-11) = 22\nCombine (12+10) / (12-11) = 22.0\nCombine (12-11) / (12+10) = 0.045454545454545456\nCombine 11 - 12 = -1\nCombine (12+10) + (11-12) = 21\nCombine (12+10) - (11-12) = 23\nCombine (11-12) - (12+10) = -23\nCombine (12+10) * (11-12) = -22\nCombine (12+10) / (11-12) = -22.0\nCombine (11-12) / (12+10) = -0.045454545454545456\nCombine 12 * 11 = 132\nCombine (12+10) + (12*11) = 154\nCombine (12+10) - (12*11) = -110\nCombine (12*11) - (12+10) = 110\nCombine (12+10) * (12*11) = 2904\nCombine (12+10) / (12*11) = 0.16666666666666666\nCombine (12*11) / (12+10) = 6.0\nCombine 12 / 11 = 1.0909090909090908\nCombine (12+10) + (12/11) = 23.09090909090909\nCombine (12+10) - (12/11) = 20.90909090909091\nCombine (12/11) - (12+10) = -20.90909090909091\nCombine (12+10) * (12/11) = 24.0</think>\n\nFinal Solution:\n((12+10)*(12/11)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[2, 3, 8, 11]",
+    "output": "<think>Combine 2 + 3 = 5\nCombine 8 + 11 = 19\nCombine (2+3) + (8+11) = 24</think>\n\nFinal Solution:\n((2+3)+(8+11)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[5, 3, 10, 6]",
+    "output": "<think>Combine 5 + 3 = 8\nCombine 10 + 6 = 16\nCombine (5+3) + (10+6) = 24</think>\n\nFinal Solution:\n((5+3)+(10+6)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[6, 12, 3, 3]",
+    "output": "<think>Combine 6 + 12 = 18\nCombine 3 + 3 = 6\nCombine (6+12) + (3+3) = 24</think>\n\nFinal Solution:\n((6+12)+(3+3)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[6, 6, 2, 6]",
+    "output": "<think>Combine 6 + 6 = 12\nCombine 2 + 6 = 8\nCombine (6+6) + (2+6) = 20\nCombine (6+6) - (2+6) = 4\nCombine (2+6) - (6+6) = -4\nCombine (6+6) * (2+6) = 96\nCombine (6+6) / (2+6) = 1.5\nCombine (2+6) / (6+6) = 0.6666666666666666\nCombine 2 - 6 = -4\nCombine (6+6) + (2-6) = 8\nCombine (6+6) - (2-6) = 16\nCombine (2-6) - (6+6) = -16\nCombine (6+6) * (2-6) = -48\nCombine (6+6) / (2-6) = -3.0\nCombine (2-6) / (6+6) = -0.3333333333333333\nCombine 6 - 2 = 4\nCombine (6+6) + (6-2) = 16\nCombine (6+6) - (6-2) = 8\nCombine (6-2) - (6+6) = -8\nCombine (6+6) * (6-2) = 48\nCombine (6+6) / (6-2) = 3.0\nCombine (6-2) / (6+6) = 0.3333333333333333\nCombine 2 * 6 = 12\nCombine (6+6) + (2*6) = 24</think>\n\nFinal Solution:\n((6+6)+(2*6)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[13, 3, 10, 2]",
+    "output": "<think>Combine 13 + 3 = 16\nCombine 10 + 2 = 12\nCombine (13+3) + (10+2) = 28\nCombine (13+3) - (10+2) = 4\nCombine (10+2) - (13+3) = -4\nCombine (13+3) * (10+2) = 192\nCombine (13+3) / (10+2) = 1.3333333333333333\nCombine (10+2) / (13+3) = 0.75\nCombine 10 - 2 = 8\nCombine (13+3) + (10-2) = 24</think>\n\nFinal Solution:\n((13+3)+(10-2)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[11, 13, 2, 3]",
+    "output": "<think>Combine 11 + 13 = 24\nCombine 2 + 3 = 5\nCombine (11+13) + (2+3) = 29\nCombine (11+13) - (2+3) = 19\nCombine (2+3) - (11+13) = -19\nCombine (11+13) * (2+3) = 120\nCombine (11+13) / (2+3) = 4.8\nCombine (2+3) / (11+13) = 0.20833333333333334\nCombine 2 - 3 = -1\nCombine (11+13) + (2-3) = 23\nCombine (11+13) - (2-3) = 25\nCombine (2-3) - (11+13) = -25\nCombine (11+13) * (2-3) = -24\nCombine (11+13) / (2-3) = -24.0\nCombine (2-3) / (11+13) = -0.041666666666666664\nCombine 3 - 2 = 1\nCombine (11+13) + (3-2) = 25\nCombine (11+13) - (3-2) = 23\nCombine (3-2) - (11+13) = -23\nCombine (11+13) * (3-2) = 24</think>\n\nFinal Solution:\n((11+13)*(3-2)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[5, 6, 5, 7]",
+    "output": "<think>Combine 5 + 6 = 11\nCombine 5 + 7 = 12\nCombine (5+6) + (5+7) = 23\nCombine (5+6) - (5+7) = -1\nCombine (5+7) - (5+6) = 1\nCombine (5+6) * (5+7) = 132\nCombine (5+6) / (5+7) = 0.9166666666666666\nCombine (5+7) / (5+6) = 1.0909090909090908\nCombine 5 - 7 = -2\nCombine (5+6) + (5-7) = 9\nCombine (5+6) - (5-7) = 13\nCombine (5-7) - (5+6) = -13\nCombine (5+6) * (5-7) = -22\nCombine (5+6) / (5-7) = -5.5\nCombine (5-7) / (5+6) = -0.18181818181818182\nCombine 7 - 5 = 2\nCombine (5+6) + (7-5) = 13\nCombine (5+6) - (7-5) = 9\nCombine (7-5) - (5+6) = -9\nCombine (5+6) * (7-5) = 22\nCombine (5+6) / (7-5) = 5.5\nCombine (7-5) / (5+6) = 0.18181818181818182\nCombine 5 * 7 = 35\nCombine (5+6) + (5*7) = 46\nCombine (5+6) - (5*7) = -24\nCombine (5*7) - (5+6) = 24</think>\n\nFinal Solution:\n((5*7)-(5+6)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[2, 7, 3, 2]",
+    "output": "<think>Combine 2 + 7 = 9\nCombine 3 + 2 = 5\nCombine (2+7) + (3+2) = 14\nCombine (2+7) - (3+2) = 4\nCombine (3+2) - (2+7) = -4\nCombine (2+7) * (3+2) = 45\nCombine (2+7) / (3+2) = 1.8\nCombine (3+2) / (2+7) = 0.5555555555555556\nCombine 3 - 2 = 1\nCombine (2+7) + (3-2) = 10\nCombine (2+7) - (3-2) = 8\nCombine (3-2) - (2+7) = -8\nCombine (2+7) * (3-2) = 9\nCombine (2+7) / (3-2) = 9.0\nCombine (3-2) / (2+7) = 0.1111111111111111\nCombine 2 - 3 = -1\nCombine (2+7) + (2-3) = 8\nCombine (2+7) - (2-3) = 10\nCombine (2-3) - (2+7) = -10\nCombine (2+7) * (2-3) = -9\nCombine (2+7) / (2-3) = -9.0\nCombine (2-3) / (2+7) = -0.1111111111111111\nCombine 3 * 2 = 6\nCombine (2+7) + (3*2) = 15\nCombine (2+7) - (3*2) = 3\nCombine (3*2) - (2+7) = -3\nCombine (2+7) * (3*2) = 54\nCombine (2+7) / (3*2) = 1.5\nCombine (3*2) / (2+7) = 0.6666666666666666\nCombine 3 / 2 = 1.5\nCombine (2+7) + (3/2) = 10.5\nCombine (2+7) - (3/2) = 7.5\nCombine (3/2) - (2+7) = -7.5\nCombine (2+7) * (3/2) = 13.5\nCombine (2+7) / (3/2) = 6.0\nCombine (3/2) / (2+7) = 0.16666666666666666\nCombine 2 / 3 = 0.6666666666666666\nCombine (2+7) + (2/3) = 9.666666666666666\nCombine (2+7) - (2/3) = 8.333333333333334\nCombine (2/3) - (2+7) = -8.333333333333334\nCombine (2+7) * (2/3) = 6.0\nCombine (2+7) / (2/3) = 13.5\nCombine (2/3) / (2+7) = 0.07407407407407407\nCombine 3 + (2+7) = 12\nCombine 2 + (3+(2+7)) = 14\nCombine 2 - (3+(2+7)) = -10\nCombine (3+(2+7)) - 2 = 10\nCombine 2 * (3+(2+7)) = 24</think>\n\nFinal Solution:\n(2*(3+(2+7))) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[6, 12, 9, 3]",
+    "output": "<think>Combine 6 + 12 = 18\nCombine 9 + 3 = 12\nCombine (6+12) + (9+3) = 30\nCombine (6+12) - (9+3) = 6\nCombine (9+3) - (6+12) = -6\nCombine (6+12) * (9+3) = 216\nCombine (6+12) / (9+3) = 1.5\nCombine (9+3) / (6+12) = 0.6666666666666666\nCombine 9 - 3 = 6\nCombine (6+12) + (9-3) = 24</think>\n\nFinal Solution:\n((6+12)+(9-3)) = 24"
+  },
+  {
+    "instruction": "Solve the 24 based on the given input and provide your reasoning.",
+    "input": "[10, 9, 4, 9]",
+    "output": "<think>Combine 10 + 9 = 19\nCombine 4 + 9 = 13\nCombine (10+9) + (4+9) = 32\nCombine (10+9) - (4+9) = 6\nCombine (4+9) - (10+9) = -6\nCombine (10+9) * (4+9) = 247\nCombine (10+9) / (4+9) = 1.4615384615384615\nCombine (4+9) / (10+9) = 0.6842105263157895\nCombine 4 - 9 = -5\nCombine (10+9) + (4-9) = 14\nCombine (10+9) - (4-9) = 24</think>\n\nFinal Solution:\n((10+9)-(4-9)) = 24"
+  }
+]
