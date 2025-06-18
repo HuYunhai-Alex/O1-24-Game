@@ -41,3 +41,10 @@ instruction: fixed task prompt
 input: 4 integer cards
 
 output: <think>...</think> block and a final expression
+
+## 📂 Repo Structure
+├── data/                     # Training/test data
+├── train/                    # Training config(Llama-factory yaml)
+├── gen_date/                 # generate CoT step by step data
+├── O1_Training_Report.pdf    # report
+└── README.md
